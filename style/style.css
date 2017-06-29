@@ -1,0 +1,623 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a
+{
+text-decoration:none;	
+}
+.main-bg-col
+{
+background:#5aac7d;
+}
+
+.left_btn
+{
+float:left;
+width:18%;	
+}
+
+.left_btn ul
+{
+float:right;	
+}
+
+.right_btn
+{
+  float: right;
+  padding: 4px;
+  height: inherit;
+  /* display: table; */
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 112px;
+  background: #3e8b5f;	
+}
+
+header
+{
+display:table;
+width:100%;
+position:relative;
+}
+
+.left_btn > ul li
+{
+
+float:left;
+
+}
+
+.new_memb
+{
+	background: url("../images/ChatAppSprite.png") -71px 3px no-repeat;
+
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+
+.new_group
+{
+background: url("../images/ChatAppSprite.png") -13px 3px no-repeat;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+
+.right_btn ul li a.Prof_pic
+{
+height: 42px;
+  width: 40px;
+  overflow: hidden;
+  display: block;
+  border-radius: 25px;
+}
+
+.right_btn ul li a.Prof_pic img
+{
+  -moz-transform: translate(-21px,-20px);
+  -webkit-transform:translate(-21px,-20px);
+    transform: translate(-21px,-20px);
+  	
+}
+
+.right_btn ul li
+{
+float:left;
+ margin-right: 9px;	
+}
+
+.use_Name
+{
+  display: block;
+  margin-top: 7px;
+}
+
+.use_Name h4
+{
+	color:#fff;
+	font-weight:200;
+}
+
+.use_Name p
+{
+	  color: #fff;
+  font-weight: 200;
+  font-size: 11px;
+}
+
+.sett-ic
+{
+background: url("../images/ChatAppSprite.png") -134px -13px no-repeat;
+  display: block;
+  height: 21px;
+  width: 21px;
+}
+
+.img_ic
+{
+background: url("../images/ChatAppSprite.png") -177px -10px no-repeat;
+  display: block;
+  height: 21px;
+  width: 21px;
+}
+.setti_icon
+{
+float: right;
+  border-left: 1px solid #24623f;
+  padding-left: 7px;
+}
+
+body
+{
+  background: url("../images/app_bg.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow:hidden;
+ 
+
+}
+
+.search_bar
+{
+background:#fff;
+padding: 10px 0px;
+float:left;
+width:100%;
+  border-bottom: 1px solid #dbdbdb;
+
+	
+}
+
+.search_bar input[type="text"]
+{
+	  padding: 6px;
+  background: #dbdbdb;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  color:#aeaeae;
+}
+
+.search_bar div
+{
+	float:left;
+}
+
+.search_bar div ul li
+{
+	float:left;
+}
+
+.info-header ul li a.Prof_pic
+{
+height: 42px;
+  width: 40px;
+  overflow: hidden;
+  display: block;
+  border-radius: 25px;
+}
+
+.info-header ul li a.Prof_pic img
+{
+  -moz-transform: translate(-21px,-20px);
+  -webkit-transform:translate(-21px,-20px);
+    transform: translate(-21px,-20px);
+  	
+}
+
+.info-header 
+{
+margin-left:10px;
+}
+
+.search-box
+{
+margin-left:10px;
+margin-top:8px;
+}
+
+.info-header .use_Name h4
+{
+color:#616161;
+}
+
+.info-header .use_Name p
+{
+color:#8c8c8c;
+}
+
+
+.info-header .setti_icon
+{
+border:none;
+}
+
+.info-header ul li
+{
+	margin-right:10px;
+}
+
+
+
+
+.tab-bar ul li
+{
+   width: 48.9%;
+  float: left;
+  padding: 13px 0px;
+}
+
+.left-panel
+{
+ width: 256px;
+  background-color: #fff;
+  text-align: center;
+  border-right: 1px solid #b6b6b6;
+  position: absolute;
+  top: 63px;
+ 
+}
+
+.tab-bar ul li:nth-of-type(1)
+{
+	border-right:1px solid #dbdbdb;
+}
+
+.active-tab
+{
+border-bottom:3px solid #5aac7d;	
+}
+.tab-bar ul .active-tab {
+}
+
+.ap-group  ul li
+{
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.ap-group  ul li a.Prof_pic
+{
+height: 42px;
+  width: 40px;
+  overflow: hidden;
+  display: block;
+  border-radius: 25px;
+}
+
+.ap-group  ul li a.Prof_pic img
+{
+  -moz-transform: translate(-21px,-20px);
+  -webkit-transform:translate(-21px,-20px);
+    transform: translate(-21px,-20px);
+  	
+}
+
+
+
+.ap-group 
+{
+float: left;
+  padding: 8px 0px;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;}
+
+.ap-group  .use_Name h4
+{
+color:#616161;
+text-align:left;
+}
+
+.ap-group  .use_Name p
+{
+color:#8c8c8c;
+text-align:left;
+}
+
+.tab-bar 
+{
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #dbdbdb;
+  position:relative;
+  z-index:99;
+  background:#fff;
+
+}
+
+.clearlef
+{
+	clear:left;
+}
+
+.online-circ span
+{
+  width: 10px;
+  height: 10px;
+  display: block;
+  background: #28b527;
+  border-radius: 25px;
+  margin-top: 17px;
+   margin-left: 49px;
+
+}
+
+.active-people
+{
+    position: absolute;
+  top: 0px;
+  width: 279px;
+  overflow: scroll;
+  height: 577px;
+  padding-bottom: 40px;	
+
+}
+
+.scroll-bar
+{
+cursor: n-resize;
+  position: absolute;
+  top: 122px;
+  right: 1px;
+  z-index: 99;
+  background: #d6d6d6;
+  width: 8px;
+  border-radius: 8px;
+  height: 59px;
+  opacity:0.8;
+  display:none;
+}
+
+.parentscroll
+{
+	   position: relative;
+  overflow: hidden;
+  height: 517px;
+  width: 255px;
+}
+
+.parentscroll:hover .scroll-bar
+{
+display:block;
+}
+
+
+.right-panel 
+{
+/*float:left;
+width:66%;*/
+  position: relative;
+  margin-left: 255px;
+}
+
+.chat-content
+{
+background: #fff;
+  padding: 12px;
+  position: relative;
+  border-bottom: 2px solid #dbdbdb;
+  border-radius: 10px;
+  width: 380px;
+ 
+}
+
+.chat-list .ap-group
+{
+
+border-bottom:none;
+}
+
+.arrwow_left:after {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #fff;
+  content: "";
+  display: inline-block;
+  left: -8px;
+  position: absolute;
+  top: 9px;
+}
+
+.arrwow_left:before {
+      width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-right: 11px solid #dbdbdb;
+  content: "";
+  display: inline-block;
+  left: -9px;
+  position: absolute;
+  top: 9px;
+}
+
+.arrwow_right:after {
+   width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #5aac7d;
+  content: "";
+  display: inline-block;
+  right: -8px;
+  position: absolute;
+  top: 9px;
+}
+
+.arrwow_right:before {
+    width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 11px solid #dbdbdb;
+  content: "";
+  display: inline-block;
+  right: -9px;
+  position: absolute;
+  top: 9px;
+}
+
+
+
+.chat-list > ul li
+{
+float:none;	
+} 
+
+.chat-list > ul li .ap-group li
+{
+float:left;
+}
+
+.arrwow_left a.Prof_pic
+{
+  position: absolute;
+  left: -50px;
+  top: 2px;
+}
+
+.arrwow_right a.Prof_pic
+{
+  position: absolute;
+  right: -50px;
+  top: 2px;
+}
+
+.li-even
+{
+float:right;	
+margin-right:70px;
+}
+
+
+.li-odd
+{
+float:left;	
+margin-left: 70px;
+}
+
+.chat-content p
+{
+display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.chat-content p .sender
+{
+	float:left;
+}
+
+.chat-content h3
+{
+font-weight: 600;
+}
+.chat-content p .timearive
+{
+	float:right;
+}
+
+.arrwow_right 
+{
+background:#5aac7d;
+color:#fff;	
+}
+
+
+.cl-textarea
+{
+	  height: 64px;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0px;
+  z-index: 999999;
+  left: 257px;
+  width: 86%;
+}
+
+.cl-textarea div
+{
+float:left;
+}
+
+.typtext input[type="text"]
+{
+padding: 6px;
+  width: 868px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  outline:none;
+}
+.typtext
+{
+margin-top: 18px;
+margin-left: 18px;
+margin-right:10px;
+  
+}
+
+.send_btn
+{
+  margin-top: 18px;
+}
+.send_btn input[type="button"]
+{
+   padding: 7px;
+  background: url("../images/ChatAppSprite.png") #5aac7d -204px -10px no-repeat;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+  width: 61px;
+  
+}
+.middle-content
+{
+  position: relative;
+  width: 100%;
+  /*min-height: 900px;*/
+}
+
+.prnt-scroll
+{
+  height: 596px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.chat-list
+{
+   height: 487px;
+  overflow-y: scroll;
+  width: 102%;
+}
